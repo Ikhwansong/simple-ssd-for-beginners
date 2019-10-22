@@ -24,6 +24,9 @@ This repo contains some simple codes for me to learn the basic of object detecti
 - Install [Pytorch](https://pytorch.org), I recommand [Anaconda](https://www.anaconda.com) as your packge manager, and you can simplely install Pytorch by 
 ```Shell 
 conda install pytorch torchvision cudatoolkit=9.0 -c pytorch 
+
+NOTE THAT : 
+If RTX 2080Ti is equiped, just command "conda install pytorch torchvision". It will install compatible cudatoolkit version automaticaly. cudatoolkit=9.0 with RTX2080Ti will raise a 'RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED' message
 ``` 
 for example.
 
